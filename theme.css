@@ -1,0 +1,73 @@
+:root{
+--glasscord-win-blur: blurbehind;
+}
+.theme-dark{
+	--background-primary: transparent;
+	--background-primary-alt: #36393ff0;
+	--background-secondary: #2f313650;
+	--background-secondary-chat: #2f3136a0;
+	--background-secondary-alt: #292b2f00;
+	--background-tertiary: #20222570;
+	--background-logo: #36393fa0;
+	--deprecated-card-bg: #36393f4c;
+	--deprecated-store-bg: #36393f00;
+	--background-attachments: #2f313640;
+	--background-search-bar: #202225a0;
+	--background-switcher: #2f3136ff;
+	--background-chatbox: #20222550;
+	--background-lights-out: #000;
+	--background-pinned: #2f3136ff;
+	--background-profile-expand: #2f3136ff;
+	--background-emoji: #2f3136ff;
+	--text-lights-out: #f0f0f0;
+	--background-titlebar: #2f313650;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+	border: 4px solid transparent;
+}
+.theme-dark .container-1D34oG {
+	background-color: transparent;
+}
+.theme-dark .pageWrapper-1PgVDX {
+	background-color: transparent;
+}
+.container-PNkimc {
+	background-color: transparent;
+}
+.privateChannels-1nO12o {
+	background-color: transparent;
+}
+.isUnread-3Ef-o9 {
+	border-color: transparent !important;
+}
+.appMount-3lHmkl {
+	background-color: transparent;
+}
+.app-2rEoOp {
+	background-color: transparent;
+}
+.channelName-1QajIf {
+	background-color: transparent;
+}
+.perksModal-fSYqOq {
+	background-color: transparent !important;
+}
+.scroller-1JbKMe {
+	background-color: transparent;
+}
+.scroller-2TZvBN {
+	background-color: transparent;
+}
+.scroller-zPkAnE {
+	background-color: transparent;
+}
+.panels-j1Uci_ {
+	background-color: transparent;
+}
+.members-1998pB>div {
+	background-color: transparent;
+}
+.scrollableContainer-2NUZem {
+	background-color: var(--background-chatbox);
+}
