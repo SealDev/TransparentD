@@ -1,4 +1,4 @@
-.theme-dark{
+   .theme-dark{
       --background-primary: transparent;
       --background-primary-alt: #36393ff0;
       --background-secondary: #2f313650;
@@ -52,9 +52,6 @@
    .privateChannels-1nO12o {
       background-color: transparent;
    }
-   .isUnread-3Ef-o9 {
-      border-color: #f04747;
-   }
    .appMount-3lHmkl {
       background-color: transparent;
    }
@@ -85,31 +82,11 @@
    .scrollableContainer-2NUZem {
       background-color: var(--background-chatbox);
    }
-   .circleIconButton-jET_ig {
-      background-color: #36393ff0;
-      color: var(--text-normal);
-   }
-   .circleIconButton-jET_ig.selected-ugP_am {
-      background-color: #7289da;
-      color: var(--text-normal);
-   }
-   .body-3ND3kc {
-      background-color: var(--background-secondary);
-   }
-   .childWrapper-anI2G9 {
-      background-color: #36393ff0;
-   }
-   .scrollableContainer-2NUZem {
-      border-radius: 8px;
-   }
-   .layout-2DM8Md {
-      border-radius: 8px;
-   }
    .content-3at_AU {
       border-radius: 8px;
    }
-   .userPopout-3XzG_A {
-      border-radius: 16px;
+   .body-3ND3kc {
+      background-color: var(--background-secondary);
    }
    .root-SR8cQa {
       border-radius: 16px;
@@ -120,9 +97,6 @@
    .listRow-hutiT_ {
       border-radius: 8px;
    }
-   .button-38aScr {
-      border-radius: 8px;
-   }
    .activityPanel-28dQGo {
       border-top: 1px solid var(--background-modifier-accent);
       border-top-left-radius: 16px;
@@ -130,17 +104,6 @@
    }
    .platform-win .sidebar-2K8pFh {
       border-radius: 16px 0 0;
-   }
-   .quickswitcher-3JagVE {
-      border-radius: 16px;
-      background-color: #2f313650;
-   }
-   .input-2VB9rf {
-      border-radius: 16px;
-      background-color: var(--deprecated-quickswitcher-input-background);
-   }
-   .result-oB0z-- {
-      border-radius: 8px;
    }
    .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
       border-radius: 8px;
@@ -150,22 +113,6 @@
    }
    .item-1tOPte {
       border-radius: 8px;
-   }
-   .autocomplete-Z9HwQh {
-      border-radius: 8px;
-      background: transparent;
-   }
-   .selector-2IcQBU {
-      border-radius: 8px;
-   }
-   .theme-dark .autocomplete-1vrmpx {
-      background: hsla(223, 7%, 13%, 0.95);
-   }
-   .theme-dark .selectorSelected-1_M1WV {
-      background: hsla(220, 8%, 20%, 0.30);
-   }
-   .folder-21wGz3 {
-      background: transparent;
    }
    .inset-3sAvek, .outer-1AjyKL {
       border-radius: 16px;
@@ -224,9 +171,104 @@
    .item-1tOPte {
       border-radius: 8px;
    }
+   .root-1gCeng{
+      border-radius: 8px;
+   }
+   .container-VSDcQc {
+      border-radius: 16px;
+   }
+   .autocompleteShadow-iiGWFU {
+      border-radius: 16px;
+   }
+   .messagesPopoutWrap-1MQ1bW {
+      border-radius: 16px;
+      background-color: hsla(220, 8%, 20%, 0.4);
+   }
+   .container-enaOkj {
+      border-radius: 16px;
+   }
+   .searchBar-3dMhjb {
+      border-radius: 8px;
+   }
+   .css-2yldzf-control {
+      border-radius: 8px;
+   }
+   .css-1yegjoj-control {
+      border-radius: 8px;
+   }
+   .css-n57xjs-menu {
+      border-radius: 8px;
+      background: hsla(220, 8%, 23%, 0.99);
+   }
+
+   /*Server + and Server Explore*/
+   .circleIconButton-jET_ig {
+      background-color: #36393ff0;
+      color: var(--text-normal);
+   }
+   .circleIconButton-jET_ig.selected-ugP_am {
+      background-color: #7289da;
+      color: var(--text-normal);
+   }
+
+   /*Discord button*/
+   .childWrapper-anI2G9 {
+      background-color: #36393ff0;
+   }
+   .scrollableContainer-2NUZem {
+      border-radius: 8px;
+   }
+
+   /*Direct messages buttons + more*/
+   .layout-2DM8Md {
+      border-radius: 8px;
+   }
+
+   /*User Popout*/
+   .userPopout-3XzG_A {
+      border-radius: 16px;
+   }
+
+   /*Quick Switcher*/
+   .quickswitcher-3JagVE {
+      border-radius: 16px;
+      background-color: #2f313650;
+   }
+   .input-2VB9rf {
+      border-radius: 16px;
+      background-color: var(--deprecated-quickswitcher-input-background);
+   }
+   .result-oB0z-- {
+      border-radius: 8px;
+   }
+
+   /*Emote autocomplete*/
+   .autocomplete-Z9HwQh {
+      border-radius: 16px;
+      background: transparent;
+   }
+   .selector-2IcQBU {
+      border-radius: 8px;
+   }
+   .theme-dark .autocomplete-1vrmpx {
+      background: hsla(223, 7%, 13%, 0.95);
+   }
+   .theme-dark .selectorSelected-1_M1WV {
+      background: hsla(220, 8%, 20%, 0.30);
+   }
+
+   /*Server Folder*/
+   .folder-21wGz3 {
+      background: transparent;
+   }
+
+   /*Chat*/
    .wrapper-2a6GCs {
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
+   }
+   .isUnread-3Ef-o9 {
+      border-color: #f04747;
    }
    .wrapper-2aW0bm :last-child {
       border-top-right-radius: 8px;
@@ -239,12 +281,16 @@
    .wrapper-2aW0bm {
       border-radius: 8px;
    }
-   .root-1gCeng{
-      border-radius: 8px;
+   .embed-IeVjo6 {
+      border-radius: 16px;
    }
+
+   /*Buttons*/
    .button-38aScr {
       border-radius: 8px;
    }
+
+   /*Emote menu*/
    .contentWrapper-SvZHNd {
       background-color: hsla(220, 8%, 15%, 0.3);
    }
@@ -271,25 +317,80 @@
    .navButtonActive-1MkytQ {
       background-color: hsla(217, 8%, 34%, 0.3);
    }
-   .embed-IeVjo6 {
+
+   /*My Account*/
+   .card-3Qj_Yx {
+      border-radius: 16px;
+   }
+
+   /*connections*/
+   .connection-1fbD7X {
+      border-radius: 16px;
+   }
+   .connectionHeader-2MDqhu {
+      border-radius: 16px 16px 0 0;
+   }
+   .connectionDelete-2Odoln {
       border-radius: 8px;
    }
-   .container-VSDcQc {
-      border-radius: 16px;
-   }
-   .autocompleteShadow-iiGWFU {
-      border-radius: 16px;
-   }
-   .messagesPopoutWrap-1MQ1bW {
-      border-radius: 16px;
-      background-color: hsla(220, 8%, 20%, 0.4);
-   }
-   .container-enaOkj {
-      border-radius: 16px;
-   }
-   .searchBar-3dMhjb {
+   .integration-3kMeY4 {
       border-radius: 8px;
    }
-   .css-2yldzf-control {
+   .inner-2Y6JuD {
       border-radius: 8px;
+   }
+
+   /*billing*/
+   .button-38aScr {
+      border-radius: 8px;
+   }
+   .paymentPane-3bwJ6A {
+      border-radius: 16px;
+   }
+   .pageButtonNext-V2kUq0 {
+      border-radius: 0 8px 8px 0;
+   }
+   .pageButtonPrev-1Y-47D {
+      border-radius: 8px 0 0 8px;
+   }
+
+   /*Subscriptions*/
+   .banner-3Kac2g {
+      border-radius: 16px;
+   }
+   .detailsBlock-FoDTGA {
+      border-radius: 16px;
+   }
+   .selectClosed-2un0PJ {
+      border-radius: 8px;
+   }
+   .selectOpen-hQuR6b {
+      border-radius: 8px 8px 0 0;
+   }
+   .root-1gCeng {
+      border-radius: 16px;
+   }
+   .header-1TKi98 {
+      border-radius: 16px 16px 0 0;
+   }
+   .footer-2gL1pp {
+      border-radius: 0 0 16px 16px;
+   }
+
+   /*Gift Inv*/
+   .card-7JP0BX {
+      border-radius: 16px;
+   }
+
+   /*Server boost*/
+   .guild-Hq0WWA {
+      border-radius: 16px;
+   }
+   .cardWrapper-2Min21 {
+      border-radius: 16px;
+   }
+
+   /*Game Activity*/
+   .notDetected-33MY4s {
+      border-radius: 16px;
    }
