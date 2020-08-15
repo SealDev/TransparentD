@@ -1,73 +1,292 @@
-:root{
---glasscord-win-blur: blurbehind;
-}
 .theme-dark{
-	--background-primary: transparent;
-	--background-primary-alt: #36393ff0;
-	--background-secondary: #2f313650;
-	--background-secondary-chat: #2f3136a0;
-	--background-secondary-alt: #292b2f00;
-	--background-tertiary: #20222570;
-	--background-logo: #36393fa0;
-	--deprecated-card-bg: #36393f4c;
-	--deprecated-store-bg: #36393f00;
-	--background-attachments: #2f313640;
-	--background-search-bar: #202225a0;
-	--background-switcher: #2f3136ff;
-	--background-chatbox: #20222550;
-	--background-lights-out: #000;
-	--background-pinned: #2f3136ff;
-	--background-profile-expand: #2f3136ff;
-	--background-emoji: #2f3136ff;
-	--text-lights-out: #f0f0f0;
-	--background-titlebar: #2f313650;
-}
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-	background-color: transparent;
-	border: 4px solid transparent;
-}
-.theme-dark .container-1D34oG {
-	background-color: transparent;
-}
-.theme-dark .pageWrapper-1PgVDX {
-	background-color: transparent;
-}
-.container-PNkimc {
-	background-color: transparent;
-}
-.privateChannels-1nO12o {
-	background-color: transparent;
-}
-.isUnread-3Ef-o9 {
-	border-color: transparent !important;
-}
-.appMount-3lHmkl {
-	background-color: transparent;
-}
-.app-2rEoOp {
-	background-color: transparent;
-}
-.channelName-1QajIf {
-	background-color: transparent;
-}
-.perksModal-fSYqOq {
-	background-color: transparent !important;
-}
-.scroller-1JbKMe {
-	background-color: transparent;
-}
-.scroller-2TZvBN {
-	background-color: transparent;
-}
-.scroller-zPkAnE {
-	background-color: transparent;
-}
-.panels-j1Uci_ {
-	background-color: transparent;
-}
-.members-1998pB>div {
-	background-color: transparent;
-}
-.scrollableContainer-2NUZem {
-	background-color: var(--background-chatbox);
-}
+      --background-primary: transparent;
+      --background-primary-alt: #36393ff0;
+      --background-secondary: #2f313650;
+      --background-secondary-chat: #2f3136a0;
+      --background-secondary-alt: #292b2f00;
+      --background-tertiary: #20222570;
+      --background-logo: #36393fa0;
+      --deprecated-card-bg: #36393f4c;
+      --deprecated-store-bg: #36393f00;
+      --background-attachments: #2f313640;
+      --background-search-bar: #202225a0;
+      --background-switcher: #2f3136ff;
+      --background-chatbox: #20222550;
+      --background-lights-out: #000;
+      --background-pinned: #2f3136ff;
+      --background-profile-expand: #2f3136ff;
+      --background-emoji: #2f3136ff;
+      --text-lights-out: #f0f0f0;
+      --background-titlebar: #2f313650;
+      --background-floating: hsla(225, 8%, 10%, 0.90);
+      --deprecated-quickswitcher-input-background: hsla(0,0%,30%,0.3);
+      --background-modifier-selected: rgba(79,84,92,0.11);
+      --background-modifier-active: rgba(79,84,92,0.11);
+      --background-modifier-selected: rgba(79,84,92,0.11);
+      --background-modifier-accent: hsla(0,0%,100%,0.06);
+      --background-modifier-hover: rgba(79,84,92,0.11);
+      --scrollbar-thin-thumb: hsla(216, 7%, 14%, 0.45);
+      --scrollbar-thin-track: transparent;
+      --scrollbar-auto-thumb: hsla(216, 7%, 14%, 0.55);
+      --scrollbar-auto-track: transparent;
+      --scrollbar-auto-scrollbar-color-thumb: transparent;
+      --scrollbar-auto-scrollbar-color-track: transparent;
+      --background-mentioned: rgba(250,166,26,0.03);
+      --background-mentioned-hover: rgba(250,166,26,0.06);
+      --background-message-hover: rgba(4,4,5,0.07);
+      --background-help-warning: rgba(250,166,26,0.1);
+   }
+   .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+      background-color: transparent;
+      border: 4px solid transparent;
+   }
+   .theme-dark .container-1D34oG {
+      background-color: transparent;
+   }
+   .theme-dark .pageWrapper-1PgVDX {
+      background-color: transparent;
+   }
+   .container-PNkimc {
+      background-color: transparent;
+   }
+   .privateChannels-1nO12o {
+      background-color: transparent;
+   }
+   .isUnread-3Ef-o9 {
+      border-color: #f04747;
+   }
+   .appMount-3lHmkl {
+      background-color: transparent;
+   }
+   .app-2rEoOp {
+      background-color: transparent;
+   }
+   .channelName-1QajIf {
+      background-color: transparent;
+   }
+   .perksModal-fSYqOq {
+      background-color: transparent !important;
+   }
+   .scroller-1JbKMe {
+      background-color: transparent;
+   }
+   .scroller-2TZvBN {
+      background-color: transparent;
+   }
+   .scroller-zPkAnE {
+      background-color: transparent;
+   }
+   .panels-j1Uci_ {
+      background-color: transparent;
+   }
+   .members-1998pB>div {
+      background-color: transparent;
+   }
+   .scrollableContainer-2NUZem {
+      background-color: var(--background-chatbox);
+   }
+   .circleIconButton-jET_ig {
+      background-color: #36393ff0;
+      color: var(--text-normal);
+   }
+   .circleIconButton-jET_ig.selected-ugP_am {
+      background-color: #7289da;
+      color: var(--text-normal);
+   }
+   .body-3ND3kc {
+      background-color: var(--background-secondary);
+   }
+   .childWrapper-anI2G9 {
+      background-color: #36393ff0;
+   }
+   .scrollableContainer-2NUZem {
+      border-radius: 8px;
+   }
+   .layout-2DM8Md {
+      border-radius: 8px;
+   }
+   .content-3at_AU {
+      border-radius: 8px;
+   }
+   .userPopout-3XzG_A {
+      border-radius: 16px;
+   }
+   .root-SR8cQa {
+      border-radius: 16px;
+   }
+   .connectedAccount-36nQx7 {
+      border-radius: 8px;
+   }
+   .listRow-hutiT_ {
+      border-radius: 8px;
+   }
+   .button-38aScr {
+      border-radius: 8px;
+   }
+   .activityPanel-28dQGo {
+      border-top: 1px solid var(--background-modifier-accent);
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+   }
+   .platform-win .sidebar-2K8pFh {
+      border-radius: 16px 0 0;
+   }
+   .quickswitcher-3JagVE {
+      border-radius: 16px;
+      background-color: #2f313650;
+   }
+   .input-2VB9rf {
+      border-radius: 16px;
+      background-color: var(--deprecated-quickswitcher-input-background);
+   }
+   .result-oB0z-- {
+      border-radius: 8px;
+   }
+   .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+      border-radius: 8px;
+   }
+   .menu-3sdvDG {
+      border-radius: 8px;
+   }
+   .item-1tOPte {
+      border-radius: 8px;
+   }
+   .autocomplete-Z9HwQh {
+      border-radius: 8px;
+      background: transparent;
+   }
+   .selector-2IcQBU {
+      border-radius: 8px;
+   }
+   .theme-dark .autocomplete-1vrmpx {
+      background: hsla(223, 7%, 13%, 0.95);
+   }
+   .theme-dark .selectorSelected-1_M1WV {
+      background: hsla(220, 8%, 20%, 0.30);
+   }
+   .folder-21wGz3 {
+      background: transparent;
+   }
+   .inset-3sAvek, .outer-1AjyKL {
+      border-radius: 16px;
+   }
+   .theme-dark .inset-3sAvek {
+      background: hsla(223, 7%, 20%, 0.45);
+   }
+   .popout-38lTFE {
+      border-radius: 8px;
+   }
+   .theme-dark .popout-38lTFE {
+      background: hsla(225, 8%, 10%, 0.95);
+   }
+   .topPill-30KHOu .item-PXvHYJ {
+      border-radius: 8px;
+   }
+   .side-8zPYf6 .item-PXvHYJ {
+      border-radius: 8px;
+   }
+   .input-cIJ7To {
+      border-radius: 8px;
+   }
+   .container-1nZlH6 {
+      border-radius: 8px;
+   }
+   .css-1a8reka-control {
+      border-radius: 8px;
+   }
+   .item-26Dhrx {
+      border-radius: 8px;
+   }
+   .container-2VW0UT {
+      border-radius: 8px;
+   }
+   .card-FDVird::before {
+      border-radius: 8px;
+   }
+   .theme-dark .card-FDVird::before {
+      background-color: hsla(220, 8%, 22%, 0.50);
+   }
+   .auditLog-3jNbM6 {
+      border-radius: 8px;
+   }
+   .card-3Qj_Yx {
+      border-radius: 8px;
+   }
+   .copyInput-2rOSt7 {
+      border-radius: 8px;
+   }
+   .role-2irmRk {
+      border-radius: 8px;
+   }
+   .menu-3sdvDG {
+      border-radius: 8px;
+   }
+   .item-1tOPte {
+      border-radius: 8px;
+   }
+   .wrapper-2a6GCs {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+   }
+   .wrapper-2aW0bm :last-child {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+   }
+   .wrapper-2aW0bm :first-child {
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+   }
+   .wrapper-2aW0bm {
+      border-radius: 8px;
+   }
+   .root-1gCeng{
+      border-radius: 8px;
+   }
+   .button-38aScr {
+      border-radius: 8px;
+   }
+   .contentWrapper-SvZHNd {
+      background-color: hsla(220, 8%, 15%, 0.3);
+   }
+   .wrapper-2Gsate {
+      background-color: hsla(220, 8%, 15%, 0.3);
+   }
+   .inspector-sdLnLS {
+      background-color: hsla(220, 8%, 15%, 0.3);
+   }
+   .wrapper-1-Fsb8 {
+      background-color: hsla(220, 8%, 15%, 0.3);
+      border-radius: 8px;
+   }
+   .container-2XeR5Z {
+      border-radius: 8px;
+      background-color: hsla(220, 8%, 18%, 0.3);
+   }
+   .emojiItem-14v6tW {
+      border-radius: 8px;
+   }
+   .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+      background-color: hsla(217, 8%, 34%, 0.3);
+   }
+   .navButtonActive-1MkytQ {
+      background-color: hsla(217, 8%, 34%, 0.3);
+   }
+   .embed-IeVjo6 {
+      border-radius: 8px;
+   }
+   .container-VSDcQc {
+      border-radius: 16px;
+   }
+   .autocompleteShadow-iiGWFU {
+      border-radius: 16px;
+   }
+   .messagesPopoutWrap-1MQ1bW {
+      border-radius: 16px;
+      background-color: hsla(220, 8%, 20%, 0.4);
+   }
+   .container-enaOkj {
+      border-radius: 16px;
+   }
+   .searchBar-3dMhjb {
+      border-radius: 8px;
+   }
