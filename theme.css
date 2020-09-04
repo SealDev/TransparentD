@@ -382,6 +382,9 @@
    .footer-2gL1pp {
       border-radius: 0 0 16px 16px;
    }
+   .hero-EvfTTA {
+      border-radius: 16px;
+   }
 
    /*Gift Inv*/
    .card-7JP0BX {
@@ -399,4 +402,13 @@
    /*Game Activity*/
    .notDetected-33MY4s {
       border-radius: 16px;
+   }
+
+
+   
+   .verified-1eC5dy {
+      color: #7289da;
+   }
+   .closeButton-2GCmT5:hover {
+      color: red;
    }
